@@ -134,6 +134,7 @@ p {
     max-width: 150px;
 }
 
+/* these are the  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -169,7 +170,7 @@ p {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+#social-media-marketing img {
     max-height: 200px;
 }
 
