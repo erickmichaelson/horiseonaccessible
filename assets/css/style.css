@@ -1,7 +1,6 @@
-
-
+/* This * makes this segment of code apply to the whole page, it sets the standard padding and margin to zero, basically resetting it. it also makes the  */
 * {
-    box-sizing: border-box;
+    box-sizing:border-box;
     padding: 0;
     margin: 0;
 }
@@ -111,8 +110,8 @@ p {
 }
 
 
-/* these are the 3 segments of information text for the website*/
-.search-engine-optimization {
+/* these are the 3 main segments of information text for the website*/
+.main-blocks {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -121,47 +120,16 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* these are the images for the website information */
-.search-engine-optimization img {
+
+/* these are the images for the main blocks of website information */
+.main-blocks img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
 /* these are the heading titles for each segment of information */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.main-blocks h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
